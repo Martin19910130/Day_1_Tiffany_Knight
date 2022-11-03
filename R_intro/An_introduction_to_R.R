@@ -166,7 +166,7 @@ rm(list = ls())
 ## 2.3 Data frame
 ## for this I ask everyone to join me now 
 ## we will load some data from a Github repository 
-muskoxen <- read.csv("https://raw.githubusercontent.com/Martin19910130/Lab1_Exponential_population_growth/main/muskox.csv")
+muskoxen <- read.csv("https://raw.githubusercontent.com/Martin19910130/Day_1_Tiffany_Knight/main/R_intro/muskox.csv")
 
 ## each column of a data frame is a vector and has a name 
 muskoxen$character <- rep("Example", nrow(muskoxen)) ## this shows us again that we can extend existing dataframes
